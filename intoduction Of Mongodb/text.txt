@@ -1,0 +1,39 @@
+1. What is a NoSQL Database, and explain the types of NoSQL database?
+ANS: NoSQL databases are non-relational and flexible. Types include:
+   - Document (e.g., MongoDB)
+   - Key-value (e.g., Redis)
+   - Column-family (e.g., Cassandra)
+   - Graph (e.g., Neo4j)
+
+2. What is the difference between SQL and NoSQL databases?
+ANS: SQL databases are relational and use tables with fixed schemas. NoSQL databases are non-relational, flexible, and can handle unstructured data.
+
+3. How to choose between MongoDB and MySQL based on your requirements?
+ANS: Use MongoDB for flexible schemas and large volumes of unstructured data. Use MySQL for structured data and complex queries.
+
+4. What are collections and documents in a MongoDB database?
+ANS: Collections are like tables in SQL, and documents are like rows in those tables, stored in JSON-like format.
+
+5. What is BSON? What is the difference between BSON and JSON?
+ANS: BSON is a binary format for JSON documents, making it more efficient and allowing more data types.
+
+6. What are MongoDB Compass and MongoDB Shell used for?
+ANS: Compass is a GUI tool for managing MongoDB data. Shell is a command-line tool for interacting with the database.
+
+7. How to create collections in MongoDB?
+ANS: Collections are created automatically when you insert a document. You can also create them explicitly with `createCollection`.
+
+8. What is the difference between insertMany and insertOne?
+ANS: `insertOne` adds one document. `insertMany` adds multiple documents.
+
+9. What is the difference between deleteOne and deleteMany?
+ANS: `deleteOne` removes one matching document. `deleteMany` removes all matching documents.
+
+10. How to read data in MongoDB? What is the difference between find and findOne?
+ANS: Use `find` to get all matching documents. Use `findOne` to get just one matching document.
+
+11. What is $set in MongoDB?
+ANS: `$set` is used to update the value of a field in a document.
+
+12. How to filter data using MongoDB?
+ANS: Use the `find` method with query criteria to filter data.
